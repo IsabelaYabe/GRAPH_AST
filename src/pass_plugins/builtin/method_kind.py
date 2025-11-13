@@ -1,7 +1,7 @@
 import ast
-from src.astcore.pass_registry import register_pass
-from src.astcore.model import TNode, Ctx
-from src.astcore.phases import Phase
+from astcore.pass_registry import register_pass
+from astcore.model import TNode, Ctx
+from astcore.phase import Phase
 
 @register_pass(
     name="method_kind",

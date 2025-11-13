@@ -4,10 +4,10 @@ from dataclasses import dataclass, field
 from heapq import heappush, heappop
 from typing import Callable, Iterable, Optional, Protocol, Any, TYPE_CHECKING
 
-if TYPE_CHECKING:
-    from .model import TNode, Ctx
-
-from .phases import Phase
+# if TYPE_CHECKING:
+    # from .model import TNode, Ctx
+from .model import TNode, Ctx
+from .phase import Phase
 from .errors import PassDependencyError
 
 
@@ -21,9 +21,9 @@ class PassSpec:
     sort_index: tuple[int, str] = field(init=False, repr=False)
     name: str
     fn: PassFn
+    requires: tuple[str, ...] # bela
     phase: Phase = Phase.ENRICH
     order: int = 100
-    requires: tuple[str, ...] # bela
     node_types: tuple[type[ast.AST], ...] = (ast.AST,) # enquais nós roda
     when: Optional[WhenFn] = None
     provides: tuple[str, ...] = () # campos que este pass garante

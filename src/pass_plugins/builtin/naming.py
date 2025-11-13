@@ -1,8 +1,8 @@
 import ast
-from src.astcore.pass_registry import register_pass
-from src.astcore.model import TNode, Ctx
-from src.astcore.phase import Phase
-from src.utils import split_identifier, detect_naming_style
+from astcore.pass_registry import register_pass
+from astcore.model import TNode, Ctx
+from astcore.phase import Phase
+from utils import split_identifier, detect_naming_style
 
 @register_pass(
     name="naming_conventions",

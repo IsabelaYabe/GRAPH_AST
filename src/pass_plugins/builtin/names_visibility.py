@@ -1,14 +1,14 @@
 import ast
-from src.astcore.pass_registry import register_pass
-from src.astcore.model import TNode, Ctx
-from src.astcore.phases import Phase
-from src.utils import decorator_to_str, classify_visibility
+from astcore.model import TNode, Ctx
+from astcore.pass_registry import register_pass
+from astcore.phase import Phase
+from utils import decorator_to_str, classify_visibility
 
 @register_pass(
     name="names_visibility",
     phase=Phase.ENRICH,
     order=10,
-    node_types=(ast.ClassDef, ast.FunctioDef, ast.AsyncFunctionDef),
+    node_types=(ast.ClassDef, ast.FunctionDef, ast.AsyncFunctionDef),
     provides=("name", "qname", "decorators", "visibility", "is_method", "args")
     )
 def pass_names_visibility(t: TNode, n: ast.AST, ctx: Ctx) -> None:

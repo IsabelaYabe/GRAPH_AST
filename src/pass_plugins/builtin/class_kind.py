@@ -1,8 +1,8 @@
 import ast
-from src.astcore.pass_registry import register_pass
-from src.astcore.model import TNode, Ctx
-from src.astcore.phases import Phase
-from src.utils import unparse_safe, decorator_to_str
+from astcore.pass_registry import register_pass
+from astcore.model import TNode, Ctx
+from astcore.phase import Phase
+from utils import unparse_safe, decorator_to_str
 
 @register_pass(
     name="class_kind",

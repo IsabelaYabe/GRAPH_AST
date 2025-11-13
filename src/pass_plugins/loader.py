@@ -1,5 +1,5 @@
 import importlib
-from typing import Iterable, Callable
+from typing import Iterable
 
 class PluginInterface:
     @staticmethod
@@ -17,7 +17,7 @@ def load_pass_plugins(plugins: Iterable[str]) -> None:
     for plugin_name in plugins:
         plugin = import_module(plugin_name)
         init = getattr(plugin, "initialize", None)
-        if Callable(init):
+        if callable(init):
             init() # Deve chamar register_pass internamente
         else:
             raise RuntimeError(f"Plugin {plugin_name} does not have an 'initialize' function.")

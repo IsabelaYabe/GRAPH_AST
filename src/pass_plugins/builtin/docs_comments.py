@@ -1,8 +1,8 @@
 import ast
-from src.astcore.pass_registry import register_pass
-from src.astcore.model import TNode, Ctx
-from src.astcore.phases import Phase
-from src.utils import leading_comment_block, first_docstring_span
+from astcore.pass_registry import register_pass
+from astcore.model import TNode, Ctx
+from astcore.phase import Phase
+from utils import leading_comment_block, first_docstring_span
 
 def has_lineno(t: TNode, n: ast.AST, ctx: Ctx) -> bool:
     return t.lineno is not None

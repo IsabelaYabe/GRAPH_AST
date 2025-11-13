@@ -7,7 +7,7 @@ class Ctx:
     class_stack: list[str] = field(default_factory=list)
     func_stack: list[str] = field(default_factory=list)
     lines: list[str] = field(default_factory=list)
-    comments_by_lines: dict[int, list] = field(default_factory=dict)
+    comments_by_line: dict[int, list] = field(default_factory=dict) #rever optional bela
 
     # Space for plugins to store temporary data
     scratch: dict[str, Any] = field(default_factory=dict)
