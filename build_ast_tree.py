@@ -8,8 +8,12 @@ from src.context import Ctx, ENRICHERS
 from src.utils import collect_comments, comments_by_line
 
 from src import passes  # IMPORTANTE: registra os passes no ENRICHERS
+from src.pass_plugins import load_pass_plugins #Plugin system
 
-def build_ast_tree(source: str) -> tuple[list[TNode], int, Optional[str], list[dict]]:
+def build_ast_tree(source: str, plugins: list[str]) -> tuple[list[TNode], int, Optional[str], list[dict]]:
+    if plugins:
+        load_pass_plugins(plugins)
+        
     py_ast = ast.parse(source)
     lines = source.splitlines()
     all_comments = collect_comments(source)

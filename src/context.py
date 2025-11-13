@@ -3,6 +3,9 @@ from typing import Protocol, runtime_checkable, Callable, Optional
 from dataclasses import dataclass, field
 from src.model import TNode  
 
+passes_creation_funcs: dict[str, Callable[..., ]]
+
+
 @dataclass
 class Ctx:
     """Contexto durante a construção da árvore AST enriquecida."""

@@ -1,10 +1,12 @@
-"""Utilitários para manipulação de AST e análise de código-fonte Python."""
+"""
+Module utils for AST processing: unparse, decorators, visibility, naming, comments.
+"""
 import ast, re
 from io import BytesIO
 import tokenize
 from typing import List, Dict, Optional, Tuple
 
-def unparse_safe(node: Optional[ast.AST]) -> Optiona[str]:
+def unparse_safe(node: Optional[ast.AST]) -> Optional[str]:
     """
     Try to convert an AST node back to source code using ast.unparse.
     """

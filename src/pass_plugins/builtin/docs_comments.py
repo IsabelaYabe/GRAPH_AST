@@ -1,0 +1,35 @@
+import ast
+from src.astcore.pass_registry import register_pass
+from src.astcore.model import TNode, Ctx
+from src.astcore.phases import Phase
+from src.utils import leading_comment_block, first_docstring_span
+
+def has_lineno(t: TNode, n: ast.AST, ctx: Ctx) -> bool:
+    return t.lineno is not None
+
+@register_pass(
+    name="docs_comments",
+    phase=Phase.ENRICH,
+    order=50,
+    node_types=(ast.Module, ast.ClassDef, ast.FunctionDef, ast.AsyncFunctionDef),
+    when=has_lineno,
+)
+def pass_docs_comments(t: TNode, n: ast.AST, ctx: Ctx) -> None:
+    if isinstance(n, (ast.Module, ast.ClassDef, ast.FunctionDef, ast.AsyncFunctionDef)):
+        t.docstring = ast.get_docstring(n)
+
+    if t.lineno is not None:
+        t.leading_comment_block = leading_comment_block(ctx.lines, ctx.comments_by_line, t.lineno)
+        defline = ctx.comments_by_line.get(t.lineno, [])
+        if defline:
+            t.defline_comment = [c["text"] or c["raw"].lstrip("#").strip() for c in defline]
+
+    if t.lineno is not None and t.end_lineno is not None:
+        ds_span = first_docstring_span(n)
+        for ln in range(t.lineno, t.end_lineno + 1):
+            for c in ctx.comments_by_line.get(ln, []):
+                if ds_span and ds_span[0] <= ln <= ds_span[1]: 
+                    continue
+                if ln == t.lineno: 
+                    continue
+                t.inline_comments.append(c)
