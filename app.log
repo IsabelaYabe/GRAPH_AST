@@ -1,0 +1,290 @@
+ DEBUG | ast_to_json:main:line71 - Loading plugins: ['pass_plugins.builtin']
+ DEBUG | loader:load_pass_plugins:line24 - <module 'pass_plugins.builtin' from '/home/kenai/projects/NFASRPR_TRANS/src/pass_plugins/builtin/__init__.py'>
+ DEBUG | loader:load_pass_plugins:line26 - sou um plugin
+ DEBUG | loader:load_pass_plugins:line29 - sou chamado
+ DEBUG | __init__:initialize:line3 - Initializing builtin pass plugins.
+ DEBUG | pass_registry:deco:line137 - Registered pass: names_visibility
+ DEBUG | pass_registry:deco:line137 - Registered pass: naming_conventions
+ DEBUG | pass_registry:deco:line137 - Registered pass: method_kind
+ DEBUG | pass_registry:deco:line137 - Registered pass: class_kind
+ DEBUG | pass_registry:deco:line137 - Registered pass: docs_comments
+ INFO | ast_to_json:main:line81 - Processing file: /home/kenai/projects/NFASRPR_TRANS/exemplos/exemplo_curto.py
+ DEBUG | ast_to_json:read_text:line18 - Reading file: /home/kenai/projects/NFASRPR_TRANS/exemplos/exemplo_curto.py
+ DEBUG | ast_to_json:main:line84 - Read source from file: /home/kenai/projects/NFASRPR_TRANS/exemplos/exemplo_curto.py
+ INFO | ast_to_json:process_source:line41 - Processing source with strategy: recursive_pre
+ DEBUG | ast_to_json:process_source:line43 - AST tree type: Module
+ DEBUG | ast_to_json:process_source:line46 - Collected 1 comments
+ DEBUG | ast_to_json:process_source:line48 - Context initialized with 18 lines and 1 comment lines
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: None, this plugin analyzes naming conventions
+ DEBUG | docs_comments:has_lineno:line9 - Checking if node None has lineno: False
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: None, this plugin analyzes naming conventions
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: None, this plugin analyzes naming conventions
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: None, this plugin analyzes naming conventions
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: None, this plugin analyzes naming conventions
+ INFO | names_visibility:pass_names_visibility:line16 - Starting names_visibility pass for node: None, this plugin sets names, qualified names, decorators, visibility, and method info
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: Foo, this plugin analyzes naming conventions
+ DEBUG | naming:pass_naming_conventions:line18 - Node Foo original name: Foo
+ DEBUG | naming:pass_naming_conventions:line20 - Node Foo name tokens: ['foo']
+ DEBUG | naming:pass_naming_conventions:line22 - Node Foo naming style: PascalCase
+ INFO | class_kind:pass_class_kind:line16 - Starting class_kind pass for class: Foo, this plugin determines class kinds by analyzing bases and decorators
+ DEBUG | class_kind:pass_class_kind:line18 - Class Foo bases: []
+ DEBUG | class_kind:pass_class_kind:line27 - Class Foo decorators: []
+ DEBUG | class_kind:pass_class_kind:line29 - Class Foo is_dataclass: False
+ DEBUG | class_kind:pass_class_kind:line31 - Class Foo is_dataclass: False, is_final: False
+ DEBUG | class_kind:pass_class_kind:line33 - Class Foo is_enum: False
+ DEBUG | class_kind:pass_class_kind:line35 - Class Foo is_protocol: False
+ DEBUG | class_kind:pass_class_kind:line37 - Class Foo has_abc_base: False
+ DEBUG | class_kind:pass_class_kind:line39 - Class Foo has_abc_meta: False
+ DEBUG | class_kind:pass_class_kind:line48 - Class Foo abstract_methods: []
+ DEBUG | class_kind:pass_class_kind:line58 - Class Foo is_concrete: True
+ DEBUG | docs_comments:has_lineno:line9 - Checking if node Foo has lineno: True
+ INFO | docs_comments:pass_docs_comments:line20 - Starting docs_comments pass for node: Foo, this plugin extracts docstrings and comments
+ DEBUG | docs_comments:pass_docs_comments:line23 - Node Foo docstring: None
+ DEBUG | docs_comments:pass_docs_comments:line28 - Node Foo defline comments: []
+ DEBUG | docs_comments:pass_docs_comments:line41 - Node Foo inline comments: []
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: None, this plugin analyzes naming conventions
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: None, this plugin analyzes naming conventions
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: None, this plugin analyzes naming conventions
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: None, this plugin analyzes naming conventions
+ INFO | names_visibility:pass_names_visibility:line16 - Starting names_visibility pass for node: None, this plugin sets names, qualified names, decorators, visibility, and method info
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: __init__, this plugin analyzes naming conventions
+ DEBUG | naming:pass_naming_conventions:line18 - Node __init__ original name: __init__
+ DEBUG | naming:pass_naming_conventions:line20 - Node __init__ name tokens: ['init']
+ DEBUG | naming:pass_naming_conventions:line22 - Node __init__ naming style: snake_case
+ INFO | method_kind:pass_method_kind:line15 - Starting method_kind pass for method: __init__, this plugin determines method kinds
+ DEBUG | method_kind:pass_method_kind:line30 - Method __init__ is an instance method
+ DEBUG | docs_comments:has_lineno:line9 - Checking if node __init__ has lineno: True
+ INFO | docs_comments:pass_docs_comments:line20 - Starting docs_comments pass for node: __init__, this plugin extracts docstrings and comments
+ DEBUG | docs_comments:pass_docs_comments:line23 - Node __init__ docstring: None
+ DEBUG | docs_comments:pass_docs_comments:line28 - Node __init__ defline comments: []
+ DEBUG | docs_comments:pass_docs_comments:line41 - Node __init__ inline comments: []
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: None, this plugin analyzes naming conventions
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: None, this plugin analyzes naming conventions
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: None, this plugin analyzes naming conventions
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: None, this plugin analyzes naming conventions
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: None, this plugin analyzes naming conventions
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: None, this plugin analyzes naming conventions
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: None, this plugin analyzes naming conventions
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: None, this plugin analyzes naming conventions
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: None, this plugin analyzes naming conventions
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: None, this plugin analyzes naming conventions
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: None, this plugin analyzes naming conventions
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: None, this plugin analyzes naming conventions
+ INFO | names_visibility:pass_names_visibility:line16 - Starting names_visibility pass for node: None, this plugin sets names, qualified names, decorators, visibility, and method info
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: util, this plugin analyzes naming conventions
+ DEBUG | naming:pass_naming_conventions:line18 - Node util original name: util
+ DEBUG | naming:pass_naming_conventions:line20 - Node util name tokens: ['util']
+ DEBUG | naming:pass_naming_conventions:line22 - Node util naming style: lower
+ INFO | method_kind:pass_method_kind:line15 - Starting method_kind pass for method: util, this plugin determines method kinds
+ DEBUG | method_kind:pass_method_kind:line21 - Method util is a staticmethod
+ DEBUG | docs_comments:has_lineno:line9 - Checking if node util has lineno: True
+ INFO | docs_comments:pass_docs_comments:line20 - Starting docs_comments pass for node: util, this plugin extracts docstrings and comments
+ DEBUG | docs_comments:pass_docs_comments:line23 - Node util docstring: None
+ DEBUG | docs_comments:pass_docs_comments:line28 - Node util defline comments: []
+ DEBUG | docs_comments:pass_docs_comments:line41 - Node util inline comments: []
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: None, this plugin analyzes naming conventions
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: None, this plugin analyzes naming conventions
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: None, this plugin analyzes naming conventions
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: None, this plugin analyzes naming conventions
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: None, this plugin analyzes naming conventions
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: None, this plugin analyzes naming conventions
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: None, this plugin analyzes naming conventions
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: None, this plugin analyzes naming conventions
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: None, this plugin analyzes naming conventions
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: None, this plugin analyzes naming conventions
+ INFO | names_visibility:pass_names_visibility:line16 - Starting names_visibility pass for node: None, this plugin sets names, qualified names, decorators, visibility, and method info
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: make, this plugin analyzes naming conventions
+ DEBUG | naming:pass_naming_conventions:line18 - Node make original name: make
+ DEBUG | naming:pass_naming_conventions:line20 - Node make name tokens: ['make']
+ DEBUG | naming:pass_naming_conventions:line22 - Node make naming style: lower
+ INFO | method_kind:pass_method_kind:line15 - Starting method_kind pass for method: make, this plugin determines method kinds
+ DEBUG | method_kind:pass_method_kind:line24 - Method make is a classmethod
+ DEBUG | docs_comments:has_lineno:line9 - Checking if node make has lineno: True
+ INFO | docs_comments:pass_docs_comments:line20 - Starting docs_comments pass for node: make, this plugin extracts docstrings and comments
+ DEBUG | docs_comments:pass_docs_comments:line23 - Node make docstring: None
+ DEBUG | docs_comments:pass_docs_comments:line28 - Node make defline comments: []
+ DEBUG | docs_comments:pass_docs_comments:line41 - Node make inline comments: []
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: None, this plugin analyzes naming conventions
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: None, this plugin analyzes naming conventions
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: None, this plugin analyzes naming conventions
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: None, this plugin analyzes naming conventions
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: None, this plugin analyzes naming conventions
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: None, this plugin analyzes naming conventions
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: None, this plugin analyzes naming conventions
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: None, this plugin analyzes naming conventions
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: None, this plugin analyzes naming conventions
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: None, this plugin analyzes naming conventions
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: None, this plugin analyzes naming conventions
+ INFO | names_visibility:pass_names_visibility:line16 - Starting names_visibility pass for node: None, this plugin sets names, qualified names, decorators, visibility, and method info
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: valor, this plugin analyzes naming conventions
+ DEBUG | naming:pass_naming_conventions:line18 - Node valor original name: valor
+ DEBUG | naming:pass_naming_conventions:line20 - Node valor name tokens: ['valor']
+ DEBUG | naming:pass_naming_conventions:line22 - Node valor naming style: lower
+ INFO | method_kind:pass_method_kind:line15 - Starting method_kind pass for method: valor, this plugin determines method kinds
+ DEBUG | method_kind:pass_method_kind:line27 - Method valor is a property
+ DEBUG | docs_comments:has_lineno:line9 - Checking if node valor has lineno: True
+ INFO | docs_comments:pass_docs_comments:line20 - Starting docs_comments pass for node: valor, this plugin extracts docstrings and comments
+ DEBUG | docs_comments:pass_docs_comments:line23 - Node valor docstring: None
+ DEBUG | docs_comments:pass_docs_comments:line28 - Node valor defline comments: []
+ DEBUG | docs_comments:pass_docs_comments:line41 - Node valor inline comments: []
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: None, this plugin analyzes naming conventions
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: None, this plugin analyzes naming conventions
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: None, this plugin analyzes naming conventions
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: None, this plugin analyzes naming conventions
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: None, this plugin analyzes naming conventions
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: None, this plugin analyzes naming conventions
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: None, this plugin analyzes naming conventions
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: None, this plugin analyzes naming conventions
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: None, this plugin analyzes naming conventions
+ INFO | names_visibility:pass_names_visibility:line16 - Starting names_visibility pass for node: None, this plugin sets names, qualified names, decorators, visibility, and method info
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: _aux, this plugin analyzes naming conventions
+ DEBUG | naming:pass_naming_conventions:line18 - Node _aux original name: _aux
+ DEBUG | naming:pass_naming_conventions:line20 - Node _aux name tokens: ['aux']
+ DEBUG | naming:pass_naming_conventions:line22 - Node _aux naming style: snake_case
+ INFO | method_kind:pass_method_kind:line15 - Starting method_kind pass for method: _aux, this plugin determines method kinds
+ DEBUG | docs_comments:has_lineno:line9 - Checking if node _aux has lineno: True
+ INFO | docs_comments:pass_docs_comments:line20 - Starting docs_comments pass for node: _aux, this plugin extracts docstrings and comments
+ DEBUG | docs_comments:pass_docs_comments:line23 - Node _aux docstring: None
+ DEBUG | docs_comments:pass_docs_comments:line28 - Node _aux defline comments: []
+ DEBUG | docs_comments:pass_docs_comments:line41 - Node _aux inline comments: []
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: None, this plugin analyzes naming conventions
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: None, this plugin analyzes naming conventions
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: None, this plugin analyzes naming conventions
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: None, this plugin analyzes naming conventions
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: None, this plugin analyzes naming conventions
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: None, this plugin analyzes naming conventions
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: None, this plugin analyzes naming conventions
+ INFO | naming:pass_naming_conventions:line15 - Starting naming_conventions pass for node: None, this plugin analyzes naming conventions
+ INFO | ast_to_json:process_source:line50 - Walked module and obtained 65 TNodes
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: None
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node None py_node summary: {'type': 'Module', 'fields': ['body', 'type_ignores']}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: None
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node None py_node summary: {'type': 'Assign', 'fields': ['targets', 'value', 'type_comment']}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: None
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node None py_node summary: {'type': 'Name', 'fields': ['id', 'ctx']}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: None
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node None py_node summary: {'type': 'Store', 'fields': []}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: None
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node None py_node summary: {'type': 'Constant', 'fields': ['value', 'kind']}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: Foo
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node Foo py_node summary: {'type': 'ClassDef', 'fields': ['name', 'bases', 'keywords', 'body', 'decorator_list', 'type_params']}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: None
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node None py_node summary: {'type': 'Assign', 'fields': ['targets', 'value', 'type_comment']}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: None
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node None py_node summary: {'type': 'Name', 'fields': ['id', 'ctx']}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: None
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node None py_node summary: {'type': 'Store', 'fields': []}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: None
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node None py_node summary: {'type': 'Constant', 'fields': ['value', 'kind']}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: __init__
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node __init__ py_node summary: {'type': 'FunctionDef', 'fields': ['name', 'args', 'body', 'decorator_list', 'returns', 'type_comment', 'type_params']}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: None
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node None py_node summary: {'type': 'arguments', 'fields': ['posonlyargs', 'args', 'vararg', 'kwonlyargs', 'kw_defaults', 'kwarg', 'defaults']}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: None
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node None py_node summary: {'type': 'arg', 'fields': ['arg', 'annotation', 'type_comment']}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: None
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node None py_node summary: {'type': 'arg', 'fields': ['arg', 'annotation', 'type_comment']}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: None
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node None py_node summary: {'type': 'Name', 'fields': ['id', 'ctx']}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: None
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node None py_node summary: {'type': 'Load', 'fields': []}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: None
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node None py_node summary: {'type': 'Assign', 'fields': ['targets', 'value', 'type_comment']}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: None
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node None py_node summary: {'type': 'Attribute', 'fields': ['value', 'attr', 'ctx']}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: None
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node None py_node summary: {'type': 'Name', 'fields': ['id', 'ctx']}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: None
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node None py_node summary: {'type': 'Load', 'fields': []}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: None
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node None py_node summary: {'type': 'Store', 'fields': []}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: None
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node None py_node summary: {'type': 'Name', 'fields': ['id', 'ctx']}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: None
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node None py_node summary: {'type': 'Load', 'fields': []}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: util
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node util py_node summary: {'type': 'FunctionDef', 'fields': ['name', 'args', 'body', 'decorator_list', 'returns', 'type_comment', 'type_params']}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: None
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node None py_node summary: {'type': 'arguments', 'fields': ['posonlyargs', 'args', 'vararg', 'kwonlyargs', 'kw_defaults', 'kwarg', 'defaults']}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: None
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node None py_node summary: {'type': 'arg', 'fields': ['arg', 'annotation', 'type_comment']}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: None
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node None py_node summary: {'type': 'Return', 'fields': ['value']}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: None
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node None py_node summary: {'type': 'BinOp', 'fields': ['left', 'op', 'right']}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: None
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node None py_node summary: {'type': 'Name', 'fields': ['id', 'ctx']}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: None
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node None py_node summary: {'type': 'Load', 'fields': []}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: None
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node None py_node summary: {'type': 'Mult', 'fields': []}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: None
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node None py_node summary: {'type': 'Constant', 'fields': ['value', 'kind']}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: None
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node None py_node summary: {'type': 'Name', 'fields': ['id', 'ctx']}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: None
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node None py_node summary: {'type': 'Load', 'fields': []}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: make
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node make py_node summary: {'type': 'FunctionDef', 'fields': ['name', 'args', 'body', 'decorator_list', 'returns', 'type_comment', 'type_params']}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: None
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node None py_node summary: {'type': 'arguments', 'fields': ['posonlyargs', 'args', 'vararg', 'kwonlyargs', 'kw_defaults', 'kwarg', 'defaults']}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: None
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node None py_node summary: {'type': 'arg', 'fields': ['arg', 'annotation', 'type_comment']}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: None
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node None py_node summary: {'type': 'arg', 'fields': ['arg', 'annotation', 'type_comment']}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: None
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node None py_node summary: {'type': 'Return', 'fields': ['value']}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: None
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node None py_node summary: {'type': 'Call', 'fields': ['func', 'args', 'keywords']}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: None
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node None py_node summary: {'type': 'Name', 'fields': ['id', 'ctx']}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: None
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node None py_node summary: {'type': 'Load', 'fields': []}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: None
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node None py_node summary: {'type': 'Name', 'fields': ['id', 'ctx']}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: None
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node None py_node summary: {'type': 'Load', 'fields': []}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: None
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node None py_node summary: {'type': 'Name', 'fields': ['id', 'ctx']}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: None
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node None py_node summary: {'type': 'Load', 'fields': []}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: valor
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node valor py_node summary: {'type': 'FunctionDef', 'fields': ['name', 'args', 'body', 'decorator_list', 'returns', 'type_comment', 'type_params']}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: None
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node None py_node summary: {'type': 'arguments', 'fields': ['posonlyargs', 'args', 'vararg', 'kwonlyargs', 'kw_defaults', 'kwarg', 'defaults']}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: None
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node None py_node summary: {'type': 'arg', 'fields': ['arg', 'annotation', 'type_comment']}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: None
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node None py_node summary: {'type': 'Return', 'fields': ['value']}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: None
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node None py_node summary: {'type': 'Attribute', 'fields': ['value', 'attr', 'ctx']}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: None
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node None py_node summary: {'type': 'Name', 'fields': ['id', 'ctx']}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: None
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node None py_node summary: {'type': 'Load', 'fields': []}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: None
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node None py_node summary: {'type': 'Load', 'fields': []}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: None
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node None py_node summary: {'type': 'Name', 'fields': ['id', 'ctx']}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: None
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node None py_node summary: {'type': 'Load', 'fields': []}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: _aux
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node _aux py_node summary: {'type': 'FunctionDef', 'fields': ['name', 'args', 'body', 'decorator_list', 'returns', 'type_comment', 'type_params']}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: None
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node None py_node summary: {'type': 'arguments', 'fields': ['posonlyargs', 'args', 'vararg', 'kwonlyargs', 'kw_defaults', 'kwarg', 'defaults']}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: None
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node None py_node summary: {'type': 'arg', 'fields': ['arg', 'annotation', 'type_comment']}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: None
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node None py_node summary: {'type': 'Return', 'fields': ['value']}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: None
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node None py_node summary: {'type': 'BinOp', 'fields': ['left', 'op', 'right']}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: None
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node None py_node summary: {'type': 'Name', 'fields': ['id', 'ctx']}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: None
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node None py_node summary: {'type': 'Load', 'fields': []}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: None
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node None py_node summary: {'type': 'Add', 'fields': []}
+ INFO | ast_to_json:tnode_to_jsonable:line29 - Converting TNode to JSON-serializable dict for node: None
+ DEBUG | ast_to_json:tnode_to_jsonable:line37 - Node None py_node summary: {'type': 'Constant', 'fields': ['value', 'kind']}
+ DEBUG | ast_to_json:main:line86 - Processed 65 nodes from file: /home/kenai/projects/NFASRPR_TRANS/exemplos/exemplo_curto.py
+ DEBUG | ast_to_json:iter_py_files:line56 - Yielding file: /home/kenai/projects/NFASRPR_TRANS/exemplos/exemplo_curto.py

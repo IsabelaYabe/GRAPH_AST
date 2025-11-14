@@ -4,11 +4,11 @@ from dataclasses import dataclass, field
 from heapq import heappush, heappop
 from typing import Callable, Iterable, Optional, Protocol, Any, TYPE_CHECKING
 
-# if TYPE_CHECKING:
-    # from .model import TNode, Ctx
 from .model import TNode, Ctx
 from .phase import Phase
 from .errors import PassDependencyError
+
+from logger import logger
 
 
 class PassFn(Protocol):
@@ -21,7 +21,7 @@ class PassSpec:
     sort_index: tuple[int, str] = field(init=False, repr=False)
     name: str
     fn: PassFn
-    requires: tuple[str, ...] # bela
+    requires: tuple[str, ...] 
     phase: Phase = Phase.ENRICH
     order: int = 100
     node_types: tuple[type[ast.AST], ...] = (ast.AST,) # enquais nós roda
@@ -134,5 +134,6 @@ def register_pass(
             name=name, fn=fn, phase=phase, order=order,
             requires=requires, node_types=node_types, when=when, provides=provides
         ))
+        logger.debug(f"Registered pass: {name}")
         return fn
     return deco

@@ -2,6 +2,7 @@ import ast
 from astcore.model import Ctx
 from astcore.walker import walk_module
 from pass_plugins.loader import load_pass_plugins
+from logger import logger
 
 source = """
 class A:
@@ -39,7 +40,7 @@ def main(source):
     # faça algo com tnodes
     for t in tnodes:
         if t.qname:
-            print(t.qname, t.method_kind or t.class_kind or "")
+            logger.debug(f"{t.qname} {t.method_kind or t.class_kind or ''}")
 
 if __name__ == "__main__":
     main(source)

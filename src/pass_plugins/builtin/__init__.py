@@ -1,5 +1,6 @@
+from logger import logger
 def initialize() -> None:
-    # importar submódulos para acionar os @register_pass
+    logger.debug("Initializing builtin pass plugins.")
     from . import names_visibility   
     from . import naming             
     from . import method_kind        

@@ -1,7 +1,9 @@
+from logger import logger
+
 class PluginError(Exception):
     """Base class for plugin-related errors."""
     def __init__(self, message="Plugin error occurred"):
-        print(message)
+        logger.error(message)
         super().__init__(message)
     
 

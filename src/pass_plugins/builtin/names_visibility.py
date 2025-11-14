@@ -3,6 +3,7 @@ from astcore.model import TNode, Ctx
 from astcore.pass_registry import register_pass
 from astcore.phase import Phase
 from utils import decorator_to_str, classify_visibility
+from logger import logger
 
 @register_pass(
     name="names_visibility",
@@ -12,7 +13,7 @@ from utils import decorator_to_str, classify_visibility
     provides=("name", "qname", "decorators", "visibility", "is_method", "args")
     )
 def pass_names_visibility(t: TNode, n: ast.AST, ctx: Ctx) -> None:
-    """Preenche nomes, visibilidade e nomes qualificados (qname)."""
+    logger.info(f"Starting names_visibility pass for node: {t.name}, this plugin sets names, qualified names, decorators, visibility, and method info")
     if isinstance(n, ast.ClassDef):
         t.is_class = True
         t.name = n.name
