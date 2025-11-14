@@ -10,10 +10,9 @@ from logger import logger
     phase=Phase.ENRICH,
     order=10,
     node_types=(ast.ClassDef, ast.FunctionDef, ast.AsyncFunctionDef),
-    provides=("name", "qname", "decorators", "visibility", "is_method", "args")
+    provides=("name", "qname", "decorators", "visibility", "is_class", "is_method", "args")
     )
 def pass_names_visibility(t: TNode, n: ast.AST, ctx: Ctx) -> None:
-    logger.info(f"Starting names_visibility pass for node: {t.name}, this plugin sets names, qualified names, decorators, visibility, and method info")
     if isinstance(n, ast.ClassDef):
         t.is_class = True
         t.name = n.name

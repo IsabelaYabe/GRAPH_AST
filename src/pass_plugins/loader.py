@@ -21,12 +21,8 @@ def load_pass_plugins(plugins: Iterable[str]) -> None:
     """
     for plugin_name in plugins:
         plugin = import_module(plugin_name)
-        logger.debug(plugin)
-        if isinstance(plugin, PluginInterface):
-            logger.debug("sou um plugin")
         init = getattr(plugin, "initialize", None)
         if callable(init):
-            logger.debug("sou chamado")
             init() 
         else:
             raise RuntimeError(f"Plugin {plugin_name} does not have an 'initialize' function.")

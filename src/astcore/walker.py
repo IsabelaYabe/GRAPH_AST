@@ -7,12 +7,14 @@ from .phase import Phase
 from .traversal import Event
 from .strategy_factory import get_strategy, StrategyName
 
+from logger import logger
+
 def _run_passes_for_node(phase: Phase, t: TNode, n: ast.AST, ctx: Ctx) -> None:
     """Run all registered passes for a given node and phase."""
     ordered_specs = REGISTRY.topological(REGISTRY.get_for_phase(phase))
     
     for s in ordered_specs:
-        if not isinstance(n, s.node_types):
+        if not isinstance(n, s.node_types):    
             continue
         if s.when and not s.when(t, n, ctx):
             continue
@@ -43,7 +45,6 @@ def walk_module(root: ast.AST, ctx: Ctx, strategy: StrategyName) -> list[TNode]:
             t = t_by_id[id(n)]
             # POST 
             _run_passes_for_node(Phase.POST, t, n, ctx)
-
             if isinstance(n, (ast.FunctionDef, ast.AsyncFunctionDef)):
                 ctx.func_stack.pop()
             if isinstance(n, ast.ClassDef):

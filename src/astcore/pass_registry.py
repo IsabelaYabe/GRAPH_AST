@@ -134,6 +134,5 @@ def register_pass(
             name=name, fn=fn, phase=phase, order=order,
             requires=requires, node_types=node_types, when=when, provides=provides
         ))
-        logger.debug(f"Registered pass: {name}")
         return fn
     return deco

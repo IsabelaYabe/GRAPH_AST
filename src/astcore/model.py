@@ -19,27 +19,29 @@ class TNode:
     end_lineno: Optional[int] = None
 
     # campos que seus passes já usam:
-    is_class: bool = False
-    is_method: bool = False
-    name: Optional[str] = None
-    qname: Optional[str] = None
-    decorators: list[str] = field(default_factory=list)
-    visibility: Optional[str] = None
-    args: list[str] = field(default_factory=list)
-    method_kind: Optional[str] = None
-    base_classes: list[str] = field(default_factory=list)
-    metaclass: Optional[str] = None
-    is_dataclass: bool = False
-    is_final: bool = False
-    is_enum: bool = False
-    class_kind: Optional[str] = None
-    abstract_methods: list[str] = field(default_factory=list)
-    docstring: Optional[str] = None
-    leading_comment_block: Optional[str] = None
-    defline_comment: list[str] = field(default_factory=list)
-    inline_comments: list[dict] = field(default_factory=list)
+    is_class: bool = False # names_visibility
+    is_method: bool = False # names_visibility
+    name: Optional[str] = None # names_visibility
+    qname: Optional[str] = None # names_visibility
+    decorators: list[str] = field (default_factory=list) # names_visibility
+    visibility: Optional[str] = None # names_visibility
+    args: list[str] = field(default_factory=list) # names_visibility
+    
+    method_kind: Optional[str] = None # method_kind
 
-    # extras dos passes de naming:
-    orig_name: Optional[str] = None
-    name_tokens: list[str] = field(default_factory=list)
-    naming_style: Optional[str] = None
+    base_classes: list[str] = field (default_factory=list) # class_kind
+    metaclass: Optional[str] = None # class_kind
+    is_dataclass: bool = False # class_kind
+    is_final: bool = False # class_kind
+    is_enum: bool = False # class_kind
+    class_kind: Optional[str] = None # class_kind
+    abstract_methods: list[str] = field (default_factory=list) # class_kind
+
+    docstring: Optional[str] = None # docs_comments
+    leading_comment_block: Optional[str] = None # docs_comments
+    defline_comment: list[str] = field(default_factory=list) # docs_comments
+    inline_comments: list[dict] = field(default_factory=list) # docs_comments
+
+    orig_name: Optional[str] = None # naming
+    name_tokens: list[str] = field(default_factory=list) # naming
+    naming_style: Optional[str] = None # naming

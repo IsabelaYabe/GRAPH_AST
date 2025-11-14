@@ -2,6 +2,7 @@
 PI = 3.14
 
 class Foo:
+    """FOO class example"""
     _k = 0
     def __init__(self, x: int):
         self.x = x

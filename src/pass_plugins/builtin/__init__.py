@@ -1,6 +1,15 @@
+"""
+Initialize builtin pass plugins:
+    names_visibility
+    naming
+    method_kind
+    class_kind
+    docs_comments
+To manager the plugins, we import the modules here.
+"""
 from logger import logger
+
 def initialize() -> None:
-    logger.debug("Initializing builtin pass plugins.")
     from . import names_visibility   
     from . import naming             
     from . import method_kind        
