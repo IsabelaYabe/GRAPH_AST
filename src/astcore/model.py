@@ -2,13 +2,16 @@ import ast
 from dataclasses import dataclass, field
 from typing import Any, Callable, Optional
 
+from pathlib import Path
+
 @dataclass
 class Ctx:
     class_stack: list[str] = field(default_factory=list)
     func_stack: list[str] = field(default_factory=list)
     lines: list[str] = field(default_factory=list)
     comments_by_line: dict[int, list] = field(default_factory=dict) #rever optional bela
-
+    root_path: Path | None = None    
+    file_path: Path | None = None
     # Space for plugins to store temporary data
     scratch: dict[str, Any] = field(default_factory=dict)
 
@@ -45,3 +48,16 @@ class TNode:
     orig_name: Optional[str] = None # naming
     name_tokens: list[str] = field(default_factory=list) # naming
     naming_style: Optional[str] = None # naming
+
+    params: list[dict] = field(default_factory=list)           # io_signature
+    return_annotation: Optional[str] = None                    # io_signature
+    is_generator: bool = False                                 # io_signature
+    raises: list[str] = field(default_factory=list)            # io_signature
+
+    rel_path: str | None = None        # path_info
+    file_path: str | None = None       # path_info
+    dir_path: str | None = None        # path_info
+    package: str | None = None         # path_info
+    module: str | None = None          # path_info
+    depth: int = 0                     # path_info
+    ext: str | None = None             # path_info

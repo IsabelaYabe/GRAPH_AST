@@ -7,7 +7,7 @@ class Foo:
     def __init__(self, x: int):
         self.x = x
     @staticmethod
-    def util(z):
+    def util_settings(z):
         return z*2
     @classmethod
     def make(cls, v):

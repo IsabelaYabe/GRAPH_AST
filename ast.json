@@ -36,7 +36,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": "exemplo_curto_0.py",
+          "file_path": "/home/kenai/projects/NFASRPR_TRANS/exemplos/exemplos_curtos/exemplo_curto_0.py",
+          "dir_path": "/home/kenai/projects/NFASRPR_TRANS/exemplos/exemplos_curtos",
+          "package": null,
+          "module": "exemplo_curto_0",
+          "depth": 0,
+          "ext": ".py"
         },
         {
           "py_node": {
@@ -70,7 +81,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -103,7 +125,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -133,7 +166,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -166,7 +210,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -205,7 +260,18 @@
           "name_tokens": [
             "foo"
           ],
-          "naming_style": "PascalCase"
+          "naming_style": "PascalCase",
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": "exemplo_curto_0.py",
+          "file_path": "/home/kenai/projects/NFASRPR_TRANS/exemplos/exemplos_curtos/exemplo_curto_0.py",
+          "dir_path": "/home/kenai/projects/NFASRPR_TRANS/exemplos/exemplos_curtos",
+          "package": null,
+          "module": "exemplo_curto_0",
+          "depth": 0,
+          "ext": ".py"
         },
         {
           "py_node": {
@@ -237,7 +303,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -270,7 +347,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -304,7 +392,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -337,7 +436,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -367,7 +477,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -400,7 +521,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -443,7 +575,43 @@
           "name_tokens": [
             "init"
           ],
-          "naming_style": "snake_case"
+          "naming_style": "snake_case",
+          "params": [
+            {
+              "name": "self",
+              "kind": "pos",
+              "annotation": null,
+              "default": null
+            },
+            {
+              "name": "x",
+              "kind": "pos",
+              "annotation": "int",
+              "default": null
+            },
+            {
+              "name": null,
+              "kind": "vararg",
+              "annotation": null,
+              "default": null
+            },
+            {
+              "name": null,
+              "kind": "varkw",
+              "annotation": null,
+              "default": null
+            }
+          ],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": "exemplo_curto_0.py",
+          "file_path": "/home/kenai/projects/NFASRPR_TRANS/exemplos/exemplos_curtos/exemplo_curto_0.py",
+          "dir_path": "/home/kenai/projects/NFASRPR_TRANS/exemplos/exemplos_curtos",
+          "package": null,
+          "module": "exemplo_curto_0",
+          "depth": 0,
+          "ext": ".py"
         },
         {
           "py_node": {
@@ -481,7 +649,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -515,7 +694,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -549,7 +739,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -582,7 +783,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -612,7 +824,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -646,7 +869,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -680,7 +914,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -713,7 +958,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -743,7 +999,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -773,7 +1040,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -806,7 +1084,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -836,7 +1125,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -855,8 +1155,8 @@
           "end_lineno": 11,
           "is_class": false,
           "is_method": true,
-          "name": "util",
-          "qname": "Foo.util.util",
+          "name": "util_settings",
+          "qname": "Foo.util_settings.util_settings",
           "decorators": [
             "staticmethod"
           ],
@@ -876,11 +1176,42 @@
           "leading_comment_block": [],
           "defline_comment": [],
           "inline_comments": [],
-          "orig_name": "util",
+          "orig_name": "util_settings",
           "name_tokens": [
-            "util"
+            "util",
+            "settings"
           ],
-          "naming_style": "lower"
+          "naming_style": "snake_case",
+          "params": [
+            {
+              "name": "z",
+              "kind": "pos",
+              "annotation": null,
+              "default": null
+            },
+            {
+              "name": null,
+              "kind": "vararg",
+              "annotation": null,
+              "default": null
+            },
+            {
+              "name": null,
+              "kind": "varkw",
+              "annotation": null,
+              "default": null
+            }
+          ],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": "exemplo_curto_0.py",
+          "file_path": "/home/kenai/projects/NFASRPR_TRANS/exemplos/exemplos_curtos/exemplo_curto_0.py",
+          "dir_path": "/home/kenai/projects/NFASRPR_TRANS/exemplos/exemplos_curtos",
+          "package": null,
+          "module": "exemplo_curto_0",
+          "depth": 0,
+          "ext": ".py"
         },
         {
           "py_node": {
@@ -918,7 +1249,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -952,7 +1294,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -984,7 +1337,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -1018,7 +1382,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -1051,7 +1426,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -1081,7 +1467,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -1111,7 +1508,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -1144,7 +1552,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -1177,7 +1596,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -1207,7 +1637,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -1252,7 +1693,43 @@
           "name_tokens": [
             "make"
           ],
-          "naming_style": "lower"
+          "naming_style": "lower",
+          "params": [
+            {
+              "name": "cls",
+              "kind": "pos",
+              "annotation": null,
+              "default": null
+            },
+            {
+              "name": "v",
+              "kind": "pos",
+              "annotation": null,
+              "default": null
+            },
+            {
+              "name": null,
+              "kind": "vararg",
+              "annotation": null,
+              "default": null
+            },
+            {
+              "name": null,
+              "kind": "varkw",
+              "annotation": null,
+              "default": null
+            }
+          ],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": "exemplo_curto_0.py",
+          "file_path": "/home/kenai/projects/NFASRPR_TRANS/exemplos/exemplos_curtos/exemplo_curto_0.py",
+          "dir_path": "/home/kenai/projects/NFASRPR_TRANS/exemplos/exemplos_curtos",
+          "package": null,
+          "module": "exemplo_curto_0",
+          "depth": 0,
+          "ext": ".py"
         },
         {
           "py_node": {
@@ -1290,7 +1767,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -1324,7 +1812,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -1358,7 +1857,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -1390,7 +1900,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -1424,7 +1945,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -1457,7 +1989,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -1487,7 +2030,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -1520,7 +2074,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -1550,7 +2115,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -1583,7 +2159,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -1613,7 +2200,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -1657,7 +2255,37 @@
           "name_tokens": [
             "valor"
           ],
-          "naming_style": "lower"
+          "naming_style": "lower",
+          "params": [
+            {
+              "name": "self",
+              "kind": "pos",
+              "annotation": null,
+              "default": null
+            },
+            {
+              "name": null,
+              "kind": "vararg",
+              "annotation": null,
+              "default": null
+            },
+            {
+              "name": null,
+              "kind": "varkw",
+              "annotation": null,
+              "default": null
+            }
+          ],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": "exemplo_curto_0.py",
+          "file_path": "/home/kenai/projects/NFASRPR_TRANS/exemplos/exemplos_curtos/exemplo_curto_0.py",
+          "dir_path": "/home/kenai/projects/NFASRPR_TRANS/exemplos/exemplos_curtos",
+          "package": null,
+          "module": "exemplo_curto_0",
+          "depth": 0,
+          "ext": ".py"
         },
         {
           "py_node": {
@@ -1695,7 +2323,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -1729,7 +2368,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -1761,7 +2411,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -1795,7 +2456,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -1828,7 +2500,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -1858,7 +2541,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -1888,7 +2582,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -1921,7 +2626,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -1951,7 +2667,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -1993,7 +2720,37 @@
           "name_tokens": [
             "aux"
           ],
-          "naming_style": "snake_case"
+          "naming_style": "snake_case",
+          "params": [
+            {
+              "name": "y",
+              "kind": "pos",
+              "annotation": null,
+              "default": null
+            },
+            {
+              "name": null,
+              "kind": "vararg",
+              "annotation": null,
+              "default": null
+            },
+            {
+              "name": null,
+              "kind": "varkw",
+              "annotation": null,
+              "default": null
+            }
+          ],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": "exemplo_curto_0.py",
+          "file_path": "/home/kenai/projects/NFASRPR_TRANS/exemplos/exemplos_curtos/exemplo_curto_0.py",
+          "dir_path": "/home/kenai/projects/NFASRPR_TRANS/exemplos/exemplos_curtos",
+          "package": null,
+          "module": "exemplo_curto_0",
+          "depth": 0,
+          "ext": ".py"
         },
         {
           "py_node": {
@@ -2031,7 +2788,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -2065,7 +2833,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -2097,7 +2876,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -2131,7 +2921,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -2164,7 +2965,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -2194,7 +3006,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -2224,7 +3047,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -2257,7 +3091,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         }
       ]
     },
@@ -2296,7 +3141,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": "exemplo_curto_1.py",
+          "file_path": "/home/kenai/projects/NFASRPR_TRANS/exemplos/exemplos_curtos/exemplo_curto_1.py",
+          "dir_path": "/home/kenai/projects/NFASRPR_TRANS/exemplos/exemplos_curtos",
+          "package": null,
+          "module": "exemplo_curto_1",
+          "depth": 0,
+          "ext": ".py"
         },
         {
           "py_node": {
@@ -2330,7 +3186,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -2363,7 +3230,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -2396,7 +3274,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -2439,7 +3328,18 @@
           "name_tokens": [
             "foo"
           ],
-          "naming_style": "PascalCase"
+          "naming_style": "PascalCase",
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": "exemplo_curto_1.py",
+          "file_path": "/home/kenai/projects/NFASRPR_TRANS/exemplos/exemplos_curtos/exemplo_curto_1.py",
+          "dir_path": "/home/kenai/projects/NFASRPR_TRANS/exemplos/exemplos_curtos",
+          "package": null,
+          "module": "exemplo_curto_1",
+          "depth": 0,
+          "ext": ".py"
         },
         {
           "py_node": {
@@ -2472,7 +3372,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -2502,7 +3413,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -2546,7 +3468,37 @@
           "name_tokens": [
             "toast"
           ],
-          "naming_style": "lower"
+          "naming_style": "lower",
+          "params": [
+            {
+              "name": "self",
+              "kind": "pos",
+              "annotation": null,
+              "default": null
+            },
+            {
+              "name": null,
+              "kind": "vararg",
+              "annotation": null,
+              "default": null
+            },
+            {
+              "name": null,
+              "kind": "varkw",
+              "annotation": null,
+              "default": null
+            }
+          ],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": "exemplo_curto_1.py",
+          "file_path": "/home/kenai/projects/NFASRPR_TRANS/exemplos/exemplos_curtos/exemplo_curto_1.py",
+          "dir_path": "/home/kenai/projects/NFASRPR_TRANS/exemplos/exemplos_curtos",
+          "package": null,
+          "module": "exemplo_curto_1",
+          "depth": 0,
+          "ext": ".py"
         },
         {
           "py_node": {
@@ -2584,7 +3536,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -2618,7 +3581,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -2648,7 +3622,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -2681,7 +3666,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -2711,7 +3707,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -2729,8 +3736,8 @@
           "end_lineno": 11,
           "is_class": true,
           "is_method": false,
-          "name": "Bar",
-          "qname": "Bar.Bar",
+          "name": "BarFoo",
+          "qname": "BarFoo.BarFoo",
           "decorators": [],
           "visibility": "public",
           "args": [],
@@ -2748,11 +3755,23 @@
           "leading_comment_block": [],
           "defline_comment": [],
           "inline_comments": [],
-          "orig_name": "Bar",
+          "orig_name": "BarFoo",
           "name_tokens": [
-            "bar"
+            "bar",
+            "foo"
           ],
-          "naming_style": "PascalCase"
+          "naming_style": "PascalCase",
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": "exemplo_curto_1.py",
+          "file_path": "/home/kenai/projects/NFASRPR_TRANS/exemplos/exemplos_curtos/exemplo_curto_1.py",
+          "dir_path": "/home/kenai/projects/NFASRPR_TRANS/exemplos/exemplos_curtos",
+          "package": null,
+          "module": "exemplo_curto_1",
+          "depth": 0,
+          "ext": ".py"
         },
         {
           "py_node": {
@@ -2785,7 +3804,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -2815,7 +3845,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -2835,7 +3876,7 @@
           "is_class": false,
           "is_method": true,
           "name": "toast",
-          "qname": "Bar.toast.toast",
+          "qname": "BarFoo.toast.toast",
           "decorators": [],
           "visibility": "public",
           "args": [
@@ -2857,7 +3898,37 @@
           "name_tokens": [
             "toast"
           ],
-          "naming_style": "lower"
+          "naming_style": "lower",
+          "params": [
+            {
+              "name": "self",
+              "kind": "pos",
+              "annotation": null,
+              "default": null
+            },
+            {
+              "name": null,
+              "kind": "vararg",
+              "annotation": null,
+              "default": null
+            },
+            {
+              "name": null,
+              "kind": "varkw",
+              "annotation": null,
+              "default": null
+            }
+          ],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": "exemplo_curto_1.py",
+          "file_path": "/home/kenai/projects/NFASRPR_TRANS/exemplos/exemplos_curtos/exemplo_curto_1.py",
+          "dir_path": "/home/kenai/projects/NFASRPR_TRANS/exemplos/exemplos_curtos",
+          "package": null,
+          "module": "exemplo_curto_1",
+          "depth": 0,
+          "ext": ".py"
         },
         {
           "py_node": {
@@ -2895,7 +3966,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -2929,7 +4011,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -2961,7 +4054,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -2994,7 +4098,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -3037,7 +4152,39 @@
             "create",
             "instance"
           ],
-          "naming_style": "snake_case"
+          "naming_style": "snake_case",
+          "params": [
+            {
+              "name": "x",
+              "kind": "pos",
+              "annotation": null,
+              "default": null
+            },
+            {
+              "name": null,
+              "kind": "vararg",
+              "annotation": null,
+              "default": null
+            },
+            {
+              "name": null,
+              "kind": "varkw",
+              "annotation": null,
+              "default": null
+            }
+          ],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [
+            "ValueError('x must be positive')"
+          ],
+          "rel_path": "exemplo_curto_1.py",
+          "file_path": "/home/kenai/projects/NFASRPR_TRANS/exemplos/exemplos_curtos/exemplo_curto_1.py",
+          "dir_path": "/home/kenai/projects/NFASRPR_TRANS/exemplos/exemplos_curtos",
+          "package": null,
+          "module": "exemplo_curto_1",
+          "depth": 0,
+          "ext": ".py"
         },
         {
           "py_node": {
@@ -3075,7 +4222,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -3109,7 +4267,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -3143,7 +4312,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -3177,7 +4357,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -3210,7 +4401,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -3240,7 +4442,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -3270,7 +4483,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -3303,7 +4527,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -3335,7 +4570,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -3369,7 +4615,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -3402,7 +4659,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -3432,7 +4700,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -3465,7 +4744,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -3499,7 +4789,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -3532,7 +4833,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -3562,7 +4874,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         },
         {
           "py_node": {
@@ -3595,7 +4918,18 @@
           "inline_comments": [],
           "orig_name": null,
           "name_tokens": [],
-          "naming_style": null
+          "naming_style": null,
+          "params": [],
+          "return_annotation": null,
+          "is_generator": false,
+          "raises": [],
+          "rel_path": null,
+          "file_path": null,
+          "dir_path": null,
+          "package": null,
+          "module": null,
+          "depth": 0,
+          "ext": null
         }
       ]
     }

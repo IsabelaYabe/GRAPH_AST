@@ -1,0 +1,223 @@
+[
+  {
+    "name": "_aux",
+    "type": "FunctionDef",
+    "params": [
+      "y"
+    ],
+    "docstring": [],
+    "leading_comments": [],
+    "class_kind": null,
+    "method_kind": null,
+    "visibility": "protected",
+    "is_dataclass": false,
+    "is_final": false,
+    "base_classes": [],
+    "decorators": [],
+    "package": null,
+    "module": "exemplo_curto_0",
+    "rel_path": "exemplo_curto_0.py"
+  },
+  {
+    "name": "valor",
+    "type": "FunctionDef",
+    "params": [
+      "self"
+    ],
+    "docstring": [],
+    "leading_comments": [],
+    "class_kind": null,
+    "method_kind": "property",
+    "visibility": "public",
+    "is_dataclass": false,
+    "is_final": false,
+    "base_classes": [],
+    "decorators": [
+      "property"
+    ],
+    "package": null,
+    "module": "exemplo_curto_0",
+    "rel_path": "exemplo_curto_0.py"
+  },
+  {
+    "name": "make",
+    "type": "FunctionDef",
+    "params": [
+      "cls",
+      "v"
+    ],
+    "docstring": [],
+    "leading_comments": [],
+    "class_kind": null,
+    "method_kind": "classmethod",
+    "visibility": "public",
+    "is_dataclass": false,
+    "is_final": false,
+    "base_classes": [],
+    "decorators": [
+      "classmethod"
+    ],
+    "package": null,
+    "module": "exemplo_curto_0",
+    "rel_path": "exemplo_curto_0.py"
+  },
+  {
+    "name": "util_settings",
+    "type": "FunctionDef",
+    "params": [
+      "z"
+    ],
+    "docstring": [],
+    "leading_comments": [],
+    "class_kind": null,
+    "method_kind": "staticmethod",
+    "visibility": "public",
+    "is_dataclass": false,
+    "is_final": false,
+    "base_classes": [],
+    "decorators": [
+      "staticmethod"
+    ],
+    "package": null,
+    "module": "exemplo_curto_0",
+    "rel_path": "exemplo_curto_0.py"
+  },
+  {
+    "name": "__init__",
+    "type": "FunctionDef",
+    "params": [
+      "self",
+      "x"
+    ],
+    "docstring": [],
+    "leading_comments": [],
+    "class_kind": null,
+    "method_kind": "instance",
+    "visibility": "special",
+    "is_dataclass": false,
+    "is_final": false,
+    "base_classes": [],
+    "decorators": [],
+    "package": null,
+    "module": "exemplo_curto_0",
+    "rel_path": "exemplo_curto_0.py"
+  },
+  {
+    "name": "Foo",
+    "type": "ClassDef",
+    "params": [],
+    "docstring": [
+      "foo",
+      "class",
+      "example"
+    ],
+    "leading_comments": [],
+    "class_kind": "concrete",
+    "method_kind": null,
+    "visibility": "public",
+    "is_dataclass": false,
+    "is_final": false,
+    "base_classes": [],
+    "decorators": [],
+    "package": null,
+    "module": "exemplo_curto_0",
+    "rel_path": "exemplo_curto_0.py"
+  },
+  {
+    "name": "create_instance",
+    "type": "FunctionDef",
+    "params": [
+      "x"
+    ],
+    "docstring": [],
+    "leading_comments": [],
+    "class_kind": null,
+    "method_kind": null,
+    "visibility": "public",
+    "is_dataclass": false,
+    "is_final": false,
+    "base_classes": [],
+    "decorators": [],
+    "package": null,
+    "module": "exemplo_curto_1",
+    "rel_path": "exemplo_curto_1.py"
+  },
+  {
+    "name": "toast",
+    "type": "FunctionDef",
+    "params": [
+      "self"
+    ],
+    "docstring": [],
+    "leading_comments": [],
+    "class_kind": null,
+    "method_kind": "instance",
+    "visibility": "public",
+    "is_dataclass": false,
+    "is_final": false,
+    "base_classes": [],
+    "decorators": [],
+    "package": null,
+    "module": "exemplo_curto_1",
+    "rel_path": "exemplo_curto_1.py"
+  },
+  {
+    "name": "BarFoo",
+    "type": "ClassDef",
+    "params": [],
+    "docstring": [],
+    "leading_comments": [],
+    "class_kind": "concrete",
+    "method_kind": null,
+    "visibility": "public",
+    "is_dataclass": false,
+    "is_final": false,
+    "base_classes": [
+      "foo"
+    ],
+    "decorators": [],
+    "package": null,
+    "module": "exemplo_curto_1",
+    "rel_path": "exemplo_curto_1.py"
+  },
+  {
+    "name": "toast",
+    "type": "FunctionDef",
+    "params": [
+      "self"
+    ],
+    "docstring": [],
+    "leading_comments": [],
+    "class_kind": null,
+    "method_kind": "instance",
+    "visibility": "public",
+    "is_dataclass": false,
+    "is_final": false,
+    "base_classes": [],
+    "decorators": [
+      "abstractmethod"
+    ],
+    "package": null,
+    "module": "exemplo_curto_1",
+    "rel_path": "exemplo_curto_1.py"
+  },
+  {
+    "name": "Foo",
+    "type": "ClassDef",
+    "params": [],
+    "docstring": [],
+    "leading_comments": [],
+    "class_kind": "abstract",
+    "method_kind": null,
+    "visibility": "public",
+    "is_dataclass": false,
+    "is_final": false,
+    "base_classes": [
+      "abc"
+    ],
+    "decorators": [],
+    "package": null,
+    "module": "exemplo_curto_1",
+    "rel_path": "exemplo_curto_1.py"
+  }
+]

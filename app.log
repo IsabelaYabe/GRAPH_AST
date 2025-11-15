@@ -1,0 +1,3 @@
+ DEBUG | api_ast:<module>:line16 - Exporting JSON to ast.json
+ INFO | api_ast:<module>:line21 - Lendo AST de ast.json
+ INFO | tokens:export_tokens_as_json:line189 - Nenhum caminho de saída fornecido, salvando em ast_tokens.json

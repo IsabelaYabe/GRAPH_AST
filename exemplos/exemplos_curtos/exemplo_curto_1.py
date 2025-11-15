@@ -6,13 +6,13 @@ class Foo(ABC):
     def toast(self):
         pass
 
-class Bar(Foo):
+class BarFoo(Foo):
     def toast(self):
         return "Concrete implementation"
 
 def create_instance(x):
     if x > 0:
-        return Bar()
+        return BarFoo()
     else:
         raise ValueError("x must be positive")
         

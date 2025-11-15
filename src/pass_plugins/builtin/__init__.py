@@ -14,4 +14,7 @@ def initialize() -> None:
     from . import naming             
     from . import method_kind        
     from . import class_kind         
-    from . import docs_comments      
+    from . import docs_comments  
+    from . import io_signature    
+    from . import path_info
+    

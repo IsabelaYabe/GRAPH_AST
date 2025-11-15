@@ -52,10 +52,10 @@ def _iter_py_files(path: Path) -> Iterable[Path]:
     else:
         yield from (p for p in path.rglob("*.py") if p.is_file())
 
-def _analyze_source(source: str, strategy: str) -> tuple[Ctx, List[TNode], List[Dict]]:
+def _analyze_source(source: str, strategy: str, file_path: Path | None = None, root_path: Path | None = None) -> tuple[Ctx, List[TNode], List[Dict]]:
     tree = ast.parse(source)
     comms = collect_comments(source)
-    ctx = Ctx(lines=source.splitlines(), comments_by_line=comments_by_line(comms))
+    ctx = Ctx(lines=source.splitlines(), comments_by_line=comments_by_line(comms),root_path=root_path, file_path=file_path)
     tnodes = walk_module(tree, ctx, strategy=strategy)
     nodes_json = [_tnode_to_jsonable(t) for t in tnodes]
     return ctx, tnodes, nodes_json
@@ -65,14 +65,11 @@ def _analyze_source(source: str, strategy: str) -> tuple[Ctx, List[TNode], List[
 # ---------------------------
 
 def analyze_file(
-    file_path: Path,
-    *,
-    strategy: str = "recursive_pre",
-) -> FileAnalysis:
+    file_path: Path, *, strategy: str = "recursive_pre", root_path: Path | None = None) -> FileAnalysis:
     if strategy not in STRATEGIES:
         raise ValueError(f"Invalid strategy: {strategy}. Options: {STRATEGIES}")
     src = _read_text(file_path)
-    ctx, tnodes, nodes_json = _analyze_source(src, strategy=strategy)
+    ctx, tnodes, nodes_json = _analyze_source(src, strategy=strategy, file_path=file_path, root_path=root_path)
     return FileAnalysis(file=file_path, ctx=ctx, tnodes=tnodes, nodes_json=nodes_json)
 
 def analyze_path(
@@ -95,7 +92,7 @@ def analyze_path(
     files: List[FileAnalysis] = []
     for f in _iter_py_files(root):
         try:
-            files.append(analyze_file(f, strategy=strategy))
+            files.append(analyze_file(f, strategy=strategy, root_path=root))
         except SyntaxError as e:
             files.append(
                 FileAnalysis(
